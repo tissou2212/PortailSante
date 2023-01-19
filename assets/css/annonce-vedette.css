@@ -1,0 +1,35 @@
+.annonce-vedette {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+	background-color: rgb(126,126,126, 0.5);
+	position: relative;
+	overflow: hidden;
+	min-height: 50vh;
+	font-size: 32px;
+	border-radius: 5px;
+}
+
+.annonce-vedette a {
+	background-color: var(--primary);
+	padding: 0.3rem;
+	border-radius: 3px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.annonce-vedette * {
+	color: white;
+}
+
+.annonce-vedette img {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	object-fit: cover;
+}

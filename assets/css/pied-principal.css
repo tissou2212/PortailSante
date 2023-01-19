@@ -1,0 +1,38 @@
+/* footer-principal */
+
+body>footer {
+	background-color: rgba(106,106,106,.11);
+	display: flex;
+	padding: 40px;
+	align-items: center;
+}
+
+body>footer>nav>ul {
+	column-count: 3;
+}
+
+body>footer>nav>ul {
+	margin: 0;
+}
+
+body>footer>nav>ul>* {
+	display: inline-block;
+	width: 100%;
+	padding: 0.3rem 0;
+}
+
+body>footer>nav {
+	width: 760px;
+	margin-right: 2rem;
+}
+
+body>footer>a {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	align-items: center;
+}
+
+body>footer>a>*+* {
+	margin-top: 1rem;
+}

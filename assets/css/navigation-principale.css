@@ -1,0 +1,27 @@
+.navigation-principale {
+	display: flex;
+	align-items: baseline;
+	gap: 20px;
+	font-size: 18px;
+	font-weight: 500;
+	position: relative;
+	z-index: 1;
+}
+
+.navigation-principale>:is(ul, aside) {
+	display: inherit;
+	align-items: inherit;
+	gap: 10px;
+}
+
+.navigation-principale>aside {
+	margin-left: auto;
+
+}
+
+.navigation-principale>ul :is(a, span) {
+	padding: 5px 10px;
+	display: block;
+}
+
+

@@ -1,0 +1,19 @@
+.navigation-secondaire {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.navigation-secondaire>ul {
+	display: inherit;
+	background-color: var(--primary);
+	flex-grow: 1;
+}
+
+.navigation-secondaire a {
+	color: white;
+	font-weight: 500;
+	font-size: 14px;
+	display: block;
+	padding: 4px 8px;
+}

@@ -1,0 +1,26 @@
+.entete-principal {
+	flex: 100% 0 0;
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.entete-principal>img {
+	position: absolute;
+	z-index: -1;
+	opacity: 2;
+}
+
+.entete-principal>img+h1 {
+	color: var(--primary);
+}
+
+.entete-principal {
+	background-color: rgb(126,126,126, .5);
+	font-weight: 600;
+	font-size: 32px;
+	text-align: center;
+}
